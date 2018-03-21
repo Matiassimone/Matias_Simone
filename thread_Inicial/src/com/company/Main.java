@@ -16,7 +16,7 @@ public class Main {
 
 
         /* Un solo consumidor el Stock puede llegar a 0*/
-        
+
         //BeerConsumer consumidorA=new BeerConsumer(cerveceria);
         //BeerConsumer consumidorB=new BeerConsumer(cerveceria);
         BeerConsumer consumidorC=new BeerConsumer(cerveceria);
