@@ -15,14 +15,16 @@ public class Main {
         productor.cargarBirra();
 
 
-        BeerConsumer consumidorA=new BeerConsumer(cerveceria);
-        BeerConsumer consumidorB=new BeerConsumer(cerveceria);
+        /* Un solo consumidor el Stock puede llegar a 0*/
+        
+        //BeerConsumer consumidorA=new BeerConsumer(cerveceria);
+        //BeerConsumer consumidorB=new BeerConsumer(cerveceria);
         BeerConsumer consumidorC=new BeerConsumer(cerveceria);
 
         productor.start();
 
-        consumidorA.start();
-        consumidorB.start();
+        //consumidorA.start();
+        //consumidorB.start();
         consumidorC.start();
 
     }
